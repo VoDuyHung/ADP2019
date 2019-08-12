@@ -1,0 +1,236 @@
+/*----------------------------------
+Home-introduce
+----------------------------------*/
+.home-introduce {
+    padding: 60px 0;
+}
+
+.home-intr-img {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.home-intr-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.home-intr-content h3 {
+    font-family: var(--sub-font);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.home-intr-content h3 span {
+    font-weight: bold;
+}
+
+.home-intr-content p {
+    text-align: justify;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.ex-uni {
+    margin-top: 15px;
+}
+
+.ex-logo {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 15px;
+    display: block;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.ex-logo img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    max-height: 80%;
+    max-width: 80%;
+}
+.ex-logo:hover{
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+/*----------------------------------
+Home-introduce
+----------------------------------*/
+.intro-school1 {
+    min-height: 530px;
+    position: relative;
+}
+.troy-detail{
+    top: -530px;
+    position: absolute;
+    width: 100%;
+    padding: 30px;
+    color: #fff;
+}
+.troy-detail span{
+    font-size: 1.375rem;
+    font-family: var(--sub-font);
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 70px;
+}
+.troy-detail img{
+    width: 150px;
+    height: auto;
+    float: right;
+}
+
+.troy-txt {
+    margin: 15px 0;
+    line-height: 22px;
+    text-align: justify;
+}
+.troy-link i {
+    display: inline-block;
+    margin-right: 10px;
+}
+.troy-detail .btn-main{
+    font-size: 14px;
+    margin-top: 20px;
+    padding:  0.5rem 1.5rem;
+}
+.intro-img-ct{
+    height: 160px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    -webkit-box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+.intro-img{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    
+}
+.intro-thumb{
+    position: relative;
+    top: -130px;
+}
+.intro2-content img{
+    height: 59px;
+    width: auto;
+    margin-bottom: 15px;
+}
+.intro2-content h4{
+    font-size: 1.375rem;
+    font-family: var(--sub-font);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.intro2-content p{
+    line-height: 22px;
+    text-align: justify;
+}
+.intro2-content ul {
+    margin: 15px 0;
+}
+.intro2-content ul li{
+    margin-bottom: 15px;
+}
+.intro2-content ul li i{
+    color: #0c4b05;
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.intro2-content ul li strong{
+    font-size: 14px;
+    display: inline-block;
+    font-family: var(--sub-font);
+    min-width: 130px;
+}
+.intro2-content .btn-sub{
+    background-color: #0c4b05;
+    padding: 0.5rem 1.5rem;
+    margin-top: 20px;
+}
+.intro2-content .btn-sub:hover{
+    box-shadow: 0 4px 17px rgba(12, 75, 5, 0.4);
+}
+.intro2-img-ct{
+    height: 450px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.intro2-img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.intro-school2{margin-bottom: 60px; margin-top: -50px;}
+@media (max-width: 575px){
+    .troy-detail span{
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 991px){
+    .home-intr-content h3{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .home-intr-img{
+        height: 200px;
+    }
+    .intro-school1{
+        display: none;
+    }
+    .troy-detail{
+        position: static;
+        top: 0;
+    }
+    .intro-thumb{
+        position: static;
+        margin-bottom: 30px;
+    }
+    .intro-school2{
+        margin-top: 50px;
+    }
+    .intro2-img-ct{
+        margin-bottom: 40px;
+        height: 300px;
+    }
+    .ex-logo:hover{
+        -webkit-transform: none;
+        transform: none;
+    }
+}

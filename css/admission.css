@@ -1,0 +1,198 @@
+/*----------------------------------
+Offer
+----------------------------------*/
+.offer {
+    padding: 60px 0 40px;
+}
+.offer .offer-title, .offer-name{
+    font-size: 24px;
+    margin-bottom: 7px;
+}
+.offer-name em{
+    color: #c0202f;
+    font-weight: bold;
+}
+.offer-name{
+    margin-bottom: 40px;
+}
+.offer .offer-title::before{
+    content: '';
+    width: 0;
+    height: 0;
+    display: inline-block;
+    margin-right: 10px;
+    border-bottom: 10px solid #c0202f;
+    border-left: 10px solid transparent;
+    border-top : 10px solid transparent;
+}
+.offer-subtitle {
+    font-family: var(--sub-font);
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.offer-subtitle span{
+    color: #c0202f;
+}
+.offer-image {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.offer-image img {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.ex-uni {
+    margin-top: 15px;
+}
+
+.ex-logo {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.ex-logo img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    max-height: 80%;
+    max-width: 80%;
+}
+
+.ex-name {
+    font-size: 16px;
+    text-align: center;
+}
+
+.node li {
+    margin-bottom: 20px;
+}
+
+.node-items {
+    display: flex;
+}
+
+.node .node-title {
+    font-size: 16px;
+    font-family: var(--sub-font);
+    font-weight: bold;
+    margin-bottom: 5px
+}
+
+.node .node-icon i {
+    color: #c0202f;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.node .node-des {
+    text-align: justify;
+}
+
+/*----------------------------------	
+Offer	
+----------------------------------*/
+.node-head{
+    font-size: 16px;
+    font-family: var(--sub-font);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.node-items ul{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.node-items ul li{
+    margin-bottom: 10px;
+}
+.node-items ul li em{
+    font-weight: bold;
+    min-width: 165px;
+    display: inline-block;
+    font-family: var(--sub-font);
+
+}
+.fee-head{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.fee-head h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: var(--sub-font);
+    margin-bottom: 15px;
+}
+.fee-head p em{
+    font-weight: bold;
+}
+.fee-img img{
+    height: 150px;
+    width: auto;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    margin-bottom: 15px;
+}
+.fee-img:hover img{
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+.fee-title{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.fee-items h4{
+    font-family: var(--sub-font);
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #c0202f;
+    margin-bottom: 5px;
+}
+.fee{
+    margin-bottom: 60px;
+}
+@media (max-width: 991px){
+    .offer-image{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 768px){
+    .fee-items{
+        margin-bottom: 40px;
+    }
+    .offer-name{
+        font-size: 1.375rem;
+    }
+}

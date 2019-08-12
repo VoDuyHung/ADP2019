@@ -1,0 +1,79 @@
+.addr-items a:hover p{
+	color: #c0202f;
+}
+.contact-addr {
+	padding: 60px 0 40px;
+}
+.contact-addr h3{
+	font-size: 24px;
+	font-weight: bold;
+	font-family: var(--sub-font);
+	margin-bottom: 15px;
+}
+.addr-items{
+	display: flex;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.addr-items img{
+	-webkit-flex-shrink: 0;
+    flex-shrink: 0;
+}
+.addr-items p{
+	-webkit-flex-grow: 1;
+    flex-grow: 1;
+}
+.addr-items .icon{
+	width: 25px;
+	height: 25px;
+	position: relative;
+	margin-right: 5px;
+}
+.addr-items .icon img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	   -moz-transform: translate(-50%,-50%);
+	    -ms-transform: translate(-50%,-50%);
+	     -o-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+	width: auto;
+	height: auto;
+	max-width: 70%;
+	max-height: 70%;
+}
+#map {
+    display: block;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 40px
+}
+.lienhe{
+	margin-bottom: 60px;
+}
+.lienhe .title{
+	font-size: 24px;
+	font-weight: bold;
+	font-family: var(--sub-font);
+	margin-bottom: 20px;
+}
+.form-lienhe{
+    margin-bottom: 20px 0 60px;
+}
+.lienhe label{
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.form-lienhe .form-group{
+    margin-bottom: 20px;
+}
+.form-lienhe .form-control{
+    padding: 10px 12px;
+}
+.form-lienhe .form-control:focus{
+    box-shadow: none;
+    border-color: #c0202f;
+}
